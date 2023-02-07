@@ -1,0 +1,30 @@
+@RELATION travel_times
+
+@ATTRIBUTE attribute_0 REAL
+@ATTRIBUTE attribute_1 Date dd-mm-yyyy
+@ATTRIBUTE attribute_2 string
+@ATTRIBUTE attribute_3 {Friday,Monday,Thursday,Tuesday,Wednesday}
+@ATTRIBUTE attribute_4 {GSK,GoingTo,Home}
+@ATTRIBUTE attribute_5 REAL
+@ATTRIBUTE attribute_6 REAL
+@ATTRIBUTE attribute_7 REAL
+@ATTRIBUTE attribute_8 REAL
+
+
+@DATA
+x,Date,StartTime,DayOfWeek,GoingTo,Distance,MaxSpeed,AvgSpeed,AvgMovingSpeed,FuelEconomy,TotalTime,MovingTime,Take407All,Comments
+1,01-06-2012,16:37,Friday,Home,51.29,127.4,78.3,84.8
+2,01-06-2012,08:20,Friday,GSK,51.63,130.3,81.8,88.9
+3,01-04-2012,16:17,Wednesday,Home,51.27,127.4,82,85.8
+4,01-04-2012,07:53,Wednesday,GSK,49.17,132.3,74.2,82.9
+5,01-03-2012,18:57,Tuesday,Home,51.15,136.2,83.4,88.1
+6,01-03-2012,07:57,Tuesday,GSK,51.8,135.8,84.5,88.8
+7,01-02-2012,17:31,Monday,Home,51.37,123.2,82.9,87.3
+8,01-02-2012,07:34,Monday,GSK,49.01,128.3,77.5,85.9
+9,12/23/2011,08:01,Friday,GSK,52.91,130.3,80.9,88.3
+10,12/22/2011,17:19,Thursday,Home,51.17,122.3,70.6,78.1
+11,12/22/2011,08:16,Thursday,GSK,49.15,129.4,74,81.4
+12,12/21/2011,07:45,Wednesday,GSK,51.77,124.8,71.7,78.9
+13,12/20/2011,16:05,Tuesday,Home,51.45,130.1,75.2,82.7
+14,12/20/2011,06:04,Tuesday,GSK,49.01,119,77.4,82
+15,12/19/2011,16:18,Monday,Home,51.04,132.2,77.5,83.5
